@@ -30,7 +30,8 @@ p {margin-bottom:8px;}
 	padding:2%;
 	overflow: hidden;/*超出隐藏*/
 	}
-	.footerleft{float:left;
+	.footerleft{
+		float:left;
 		width:47%;
 		height:92%;
 		line-height:76.8px;
@@ -44,12 +45,14 @@ p {margin-bottom:8px;}
 		border-width:2%;
 		color:#5fc0cd;
 		}
-		.wordleft{text-decoration:none;/*去除文本的装饰效*/
+		.wordleft{
+			text-decoration:none;/*去除文本的装饰效*/
 			font-weight:bold;/*加粗*/
 			font-size:18px;
 			color:#5fc0cd;
 			}
-	.footerright{float:right;
+	.footerright{
+		float:right;
 		width:49%;
 		height:96%;
 		line-height:76.8px;
@@ -59,7 +62,8 @@ p {margin-bottom:8px;}
 		text-align:center;
 		}
 
-		.wordright{text-decoration:none;/*去除文本的装饰效*/
+		.wordright{
+			text-decoration:none;/*去除文本的装饰效*/
 			font-weight:bold;/*加粗*/
 			font-size:18px;
 			color:#FFF;
@@ -89,7 +93,8 @@ p {margin-bottom:8px;}
 		color:#FFF;
 		font-weight:bold;
 		}
-		.small{font-size:12px;
+		.small{
+			font-size:12px;
 			letter-spacing:2px}
 .line_first {
 	width:100%;
@@ -100,7 +105,35 @@ p {margin-bottom:8px;}
 	font-size:20px;
 	font-weight:bold;/*加粗*/
 	}
-	
+.line_two{
+	padding-top:20px;
+	padding-bottom:20px;
+	line-height:20px;
+	font-size:20px;
+	font-weight:bold;/*加粗*/
+	}
+	.gray_text{
+		float:left;
+		height:100%;
+		width:100px;
+		text-align:center;
+		line-height:20px;
+		color:#999;
+		}
+	.black_text{
+		float:left;
+		height:100%;
+		width:100px;
+		line-height:20px;
+		color:#000;
+		}
+	.red_text{
+		float:left;
+		height:100%;
+		width:150px;
+		line-height:20px;
+		color:#F00;
+		}
 .long_line{ 
 	height:1px;
  	width:100%;
@@ -112,6 +145,13 @@ p {margin-bottom:8px;}
  	width:98%;
 	background:#999;
 	overflow:hidden;} 
+.Vertical_line{
+	float:left;
+	height:20px;
+	width:1px;
+	background:#999;
+	overflow:hidden;
+	}
 </style>
 </head>
 
@@ -131,6 +171,31 @@ p {margin-bottom:8px;}
 
 <div class="line_first">&nbsp;<img src="images/star.png" style="height:20px">住家&nbsp;&nbsp;<img src="images/star.png" style="height:20px">不含餐</div>
 <div class="short_line"></div>
+
+<div class="line_first">
+<div class="gray_text">从业年限</div>
+<div class="Vertical_line"></div>
+<div class="black_text">&nbsp;0~3</div>
+</div>
+<div class="short_line"></div>
+
+<div class="line_first">
+<div class="gray_text">工作时长</div>
+<div class="Vertical_line"></div>
+<div class="black_text">&nbsp;全天</div>
+</div>
+<div class="short_line"></div>
+
+<div class="line_first">
+<div class="gray_text">服务价格</div>
+<div class="Vertical_line"></div>
+<div class="red_text">&nbsp;25元/小时</div>
+</div>
+<div class="short_line"></div>
+
+<div class="line_two">
+
+
 <div class="footer"></div>
 <div class="footer">
 <div class="footerleft"> <a class="wordleft" font-color: href="">留言</a></div>
